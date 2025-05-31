@@ -1,0 +1,40 @@
+# Виртуальное окружение
+venv/
+ENV/
+env/
+.venv/
+
+# Файлы Python-компиляции
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Файлы IDE (например, VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Системные файлы macOS/Windows
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Файлы конфигурации пользователя
+*.env
+.env.*
+*.local
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Бинарные или архивы
+*.zip
+*.tar.gz
+*.egg
+*.whl
+
+# Файлы зависимостей можно отслеживать (только requirements.txt), но не lock-файлы от pipenv/poetry, если не используешь их явно
+Pipfile.lock
+poetry.lock
